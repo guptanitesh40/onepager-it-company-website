@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.50%;
+  /* 1rem = 10px */
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply font-sans;
+  font-size: 1.6rem;
+  box-sizing: border-box;
+  color: black;
+}
+
+:root {
+  --primary-color: #000;
+}
+
+
+/* send button animation */
+@keyframes play {
+  0% {
+      background-position: 0px;
+  }
+  20% {
+      background-position: -110px;
+  }
+  35% {
+      background-position: -180px;
+  }
+  50% {
+      background-position: -210px;
+  }
+  80% {
+      background-position: -350px;
+  }
+  100% {
+      background-position: -390px;
+  }
+}
+
