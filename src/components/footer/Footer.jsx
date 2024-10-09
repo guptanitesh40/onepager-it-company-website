@@ -4,7 +4,7 @@ const Footer = () => {
       <div className="container">
         <div className="flex justify-center items-center">
           <img
-            src="/footer-logo.svg"
+            src="/logo.png"
             alt="Infowave Solution"
             className="footer-logo"
           />

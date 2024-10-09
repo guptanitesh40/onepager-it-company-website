@@ -38,8 +38,8 @@ h2 {
 
 .logo-img {
   display: inline-block;
-  max-width: 20.25rem;
-  height: auto;
+  max-height: 9rem;
+  width: auto;
 }
 
 .menu {
@@ -373,9 +373,9 @@ h2 {
 }
 
 .footer-logo {
-  width: 30rem;
-  height: 10rem;
-  filter: invert(100%);
+  width: 20rem;
+  height: auto;
+  fill: white;
 }
 
 .sitemap {
