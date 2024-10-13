@@ -19,7 +19,7 @@ const Footer = () => {
           </ul>
         </div>
         <p className="copyright-text">
-          Copyright &copy; 2019 Techyon Solutions. All Rights Reserved.
+          Copyright &copy; 2024 Infowave Solutions. All Rights Reserved.
         </p>
       </div>
     </footer>
