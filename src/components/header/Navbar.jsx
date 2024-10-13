@@ -26,7 +26,7 @@ const Navbar = () => {
                 </div>
                 <div>
                     <a className="block text-[1.4rem] font-semibold pb-1">Have Any Question ?</a>
-                    <a href="mailto:virdhoriya@gmail.com" className="block text-[1.8rem] font-semibold transition-all duration-300 hover:text-[#43baff]">virdhoriya@gmail.com</a>
+                    <a href="mailto:sales@infowavesolutions.com" className="block text-[1.8rem] font-semibold transition-all duration-300 hover:text-[#43baff]">sales@infowavesolutions.com</a>
                 </div>
             </div>
           </div>
