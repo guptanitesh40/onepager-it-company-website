@@ -3,3 +3,6 @@
 
 # environment variables
 .env
+
+# Unnecessary system files
+.DS_Store

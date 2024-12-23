@@ -8,7 +8,10 @@ import { TbSteam } from "react-icons/tb";
 
 const Service = () => {
   return (
-    <section id="services" className="pt-[28rem] pb-[15rem] relative">
+    <section
+      id="services"
+      className="pt-[28rem] pb-[15rem] relative mb:pt-0 mb-l:mt-[75rem]"
+    >
       <div className="container">
         <div>
           <div className="flex flex-col items-start mb-16">

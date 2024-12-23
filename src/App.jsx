@@ -10,7 +10,7 @@ import Footer from "./components/footer/Footer";
 
 const App = () => {
   return (
-    <div>
+    <>
       <Toaster />
       <Header />
       <Banner />
@@ -20,7 +20,7 @@ const App = () => {
       <Industries />
       <Contact />
       <Footer />
-    </div>
+    </>
   );
 };
 
