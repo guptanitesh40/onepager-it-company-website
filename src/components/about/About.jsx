@@ -4,7 +4,7 @@ import { MdVerified } from "react-icons/md";
 const About = () => {
   return (
     <section id="about" className="section-about overflow-x-hidden">
-      <div className="container ">
+      <div className="secondary-container">
         <div className="flex justify-between xl-s:items-center md-s:flex-col md-s:gap-12">
           <div className="basis-1/2 xl-s:basis-[48.5%]">
             <div className="pr-36 xl-s:pr-0">

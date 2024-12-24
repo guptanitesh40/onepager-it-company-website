@@ -3,6 +3,7 @@ import { useState } from "react";
 import axios from "axios";
 
 const Contact = () => {
+  const [loading, setLoading] = useState(false);
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
@@ -32,22 +33,24 @@ const Contact = () => {
     };
 
     try {
+      setLoading(true);
       const response = await axios.post(
         "https://api.emailjs.com/api/v1.0/email/send",
         data
       );
 
-      setName("");
-      setEmail("");
-      setMessage("");
-
       if (response.status === 200) {
         toast.success("Email sent successfully!");
+        setName("");
+        setEmail("");
+        setMessage("");
       } else {
         toast.error("Failed to send email.");
       }
     } catch (error) {
       toast.error(`An error occurred while sending the email. ${error}`);
+    } finally {
+      setLoading(false);
     }
   };
 

@@ -1,20 +1,18 @@
 const Industries = () => {
   return (
-    <section className="section-industries overflow-hidden bg-[#F8F8F8]">
+    <section className="section-industries overflow-hidden">
       <div className="secondary-container">
-        <div>
-          <div className="flex flex-col items-center justify-center mb-10">
-            <span className="sub-title">{"// BUSINESS INDUSTRIES"}</span>
-            <h2 className="main-heading">
-              Empowering Businesses Across Industries
-            </h2>
-          </div>
+        <div className="flex flex-col items-center justify-center mb-10">
+          <span className="sub-title">{"// BUSINESS INDUSTRIES"}</span>
+          <h2 className="main-heading text-center">
+            Empowering Businesses Across Industries
+          </h2>
         </div>
       </div>
       <div className="card-container">
-        <div className="ml-28 card card-1">
+        <div className="ml-28 mb:ml-12 card card-1">
           <h6>Business & Finance</h6>
-          <p className="description">
+          <p className="text-description">
             Securely manage financial data with robust banking and finance
             software. Automate repetitive tasks and improve financial reporting
             accuracy.
@@ -23,7 +21,7 @@ const Industries = () => {
 
         <div className="card card-2">
           <h6>Retail & Distribution</h6>
-          <p className="description">
+          <p className="text-description">
             Build engaging e-commerce platforms to reach new customers. Develop
             data-driven solutions to personalise customer experiences and boost
             sales.
@@ -32,7 +30,7 @@ const Industries = () => {
 
         <div className="card card-3">
           <h6>Information Technology</h6>
-          <p className="description">
+          <p className="text-description">
             Streamline internal operations with custom software solutions.
             Develop innovative enterprise applications to enhance productivity
             and security.
@@ -41,7 +39,7 @@ const Industries = () => {
 
         <div className="card card-4">
           <h6>Information Technology</h6>
-          <p className="description">
+          <p className="text-description">
             Streamline internal operations with custom software solutions.
             Develop innovative enterprise applications to enhance productivity
             and security.
@@ -50,7 +48,7 @@ const Industries = () => {
 
         <div className="card card-1">
           <h6>Business & Finance</h6>
-          <p className="description">
+          <p className="text-description">
             Securely manage financial data with robust banking and finance
             software. Automate repetitive tasks and improve financial reporting
             accuracy.
