@@ -6,3 +6,6 @@
 
 # Unnecessary system files
 .DS_Store
+
+#Build
+/dist

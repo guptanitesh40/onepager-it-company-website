@@ -1,7 +1,7 @@
 const Industries = () => {
   return (
-    <section className="py-28 pt-[24rem] overflow-hidden bg-[#F8F8F8]">
-      <div className="container">
+    <section className="section-industries overflow-hidden bg-[#F8F8F8]">
+      <div className="secondary-container">
         <div>
           <div className="flex flex-col items-center justify-center mb-10">
             <span className="sub-title">{"// BUSINESS INDUSTRIES"}</span>
@@ -12,7 +12,7 @@ const Industries = () => {
         </div>
       </div>
       <div className="card-container">
-        <div className="card card-1">
+        <div className="ml-28 card card-1">
           <h6>Business & Finance</h6>
           <p className="description">
             Securely manage financial data with robust banking and finance
@@ -57,7 +57,7 @@ const Industries = () => {
           </p>
         </div>
       </div>
-      <div className="flex justify-center items-center gap-6 mt-[-2.5rem]">
+      <div className="justify-center items-center gap-6 mt-[-2.5rem] hidden">
         <span className="dot"></span>
         <span className="dot"></span>
         <span className="dot active-dot"></span>

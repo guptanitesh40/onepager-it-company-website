@@ -53,24 +53,23 @@ const Contact = () => {
 
   return (
     <section id="contact" className="section-contact">
-      <div className="container">
-        <div className="flex items-start">
-          <div className="flex-[0_0_50%]">
-            <div className="flex flex-col items-start pt-44 pb-20">
+      <div className="secondary-container">
+        <div className="flex items-start tb-l:flex-col tb-l:gap-8">
+          <div className="basis-1/2 pr-8 md-s:pr-6 tb-l:pr-0">
+            <div className="flex flex-col items-start pt-44 pb-20 max:pt-28 lg-s:pt-20 md-s:pb-12 tb-l:pt-0 tb-l:pb-6">
               <span className="sub-title">{"// Contact Us"}</span>
               <h2 className="main-heading">
-                We are Trusted By
-                <br />
+                We are Trusted By <br className="tb-l:hidden" />
                 7+ Countries Worldwide
               </h2>
             </div>
-            <p className="description mb-8 w-[80%]">
+            <p className="text-description mb-8">
               Write to us, we endeavour to answer all enquiries within 24 hours
               on business days. We will be happy to answer your questions.
             </p>
           </div>
 
-          <div className="flex-[0_0_50%]">
+          <div className="basis-1/2">
             <div className="form-container">
               <h2 className="mb-4 text-white">Ready to Get Started?</h2>
               <p>
