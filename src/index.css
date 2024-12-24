@@ -30,7 +30,6 @@ body {
 }
 
 
-/* send button animation */
 @keyframes play {
   0% {
       background-position: 0px;

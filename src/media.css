@@ -179,6 +179,14 @@
     font-size: 3.2rem;
     line-height: 4.8rem;
   }
+
+  .section-industries {
+    padding: 22rem 0 5rem 0;
+  }
+
+  .card-container {
+    padding: 4rem 0;
+  }
 }
 
 @media only screen and (max-width: 64em) {
@@ -261,7 +269,9 @@
     bottom: -10%;
   }
 
-  /* ## */
+  .footer-logo {
+    max-width: 16rem;
+  }
 
   .section-contact .main-heading {
     font-size: 3.2rem;
@@ -294,6 +304,24 @@
     padding: 1.2rem 2.4rem;
     line-height: 1.4;
     border-radius: 2px;
+  }
+
+  .section-industries {
+    padding: 20rem 0 5rem 0;
+  }
+
+  .card-container {
+    padding: 3rem 0;
+  }
+
+  .card {
+    padding: 4rem 7rem 4rem 10rem;
+    min-width: 41.2rem;
+  }
+
+  .card::before {
+    height: 12rem;
+    width: 11rem;
   }
 }
 
@@ -415,7 +443,7 @@
 
   .form-container {
     padding: 6rem 4.8rem;
-    border-radius: 0;
+    border-radius: 4px;
   }
 
   .form-container h2 {
@@ -425,12 +453,26 @@
 
   .input {
     padding: 1.4rem 2rem;
-    border-radius: 0;
+    border-radius: 4px;
   }
 
   .btn-container,
   .submit-btn {
-    border-radius: 0;
+    border-radius: 4px;
+  }
+
+  .footer-logo {
+    max-width: 14rem;
+  }
+
+  .copyright-text {
+    margin-top: 4rem;
+  }
+
+  .card {
+    padding: 4rem 7rem 4rem 10rem;
+    min-width: 50rem;
+    max-width: 90vw;
   }
 }
 
@@ -457,6 +499,27 @@
 
   .section-service {
     padding: 53rem 0 12rem 0;
+  }
+
+  .form-container {
+    border-radius: 3px;
+  }
+
+  .input,
+  .btn-container,
+  .submit-btn {
+    border-radius: 3px;
+  }
+
+  .card {
+    padding: 4rem 3rem 4rem 7rem;
+    min-width: 30rem;
+    max-width: 30rem;
+  }
+
+  .card::before {
+    height: 10rem;
+    width: 9rem;
   }
 }
 
@@ -485,12 +548,30 @@
 
   .form-container {
     padding: 3rem;
+    border-radius: 2px;
+  }
+
+  .input,
+  .btn-container,
+  .submit-btn {
+    border-radius: 2px;
   }
 
   .form-container h2 {
     font-size: 3rem;
     line-height: normal;
     font-weight: 700;
+  }
+
+  .card {
+    padding: 3rem 3rem 3rem 4rem;
+    min-width: 27rem;
+    max-width: 27rem;
+  }
+
+  .card::before {
+    height: 7rem;
+    width: 6rem;
   }
 }
 
@@ -546,13 +627,35 @@
   }
 
   .form-container h2 {
-    font-size: 2.4rem;
+    font-size: 2.2rem;
+  }
+
+  .input {
+    border-radius: 2px;
+    padding: 1.2rem 1.5rem;
+  }
+
+  .form-container p {
+    font-size: 1.3rem;
+    margin-bottom: 2.5rem;
+  }
+
+  .btn-container {
+    padding: 1.5px;
+  }
+
+  .submit-btn {
+    padding: 1rem 1.3rem;
+    font-size: 1.2rem;
   }
 
   .form-container,
-  .input,
   .btn-container,
   .submit-btn {
     border-radius: 3px;
+  }
+
+  .section-industries {
+    padding: 23rem 0 5rem 0;
   }
 }
