@@ -84,19 +84,35 @@ const Navbar = () => {
         <div>
           <ul className="inner-menu">
             <li>
-              <a href="/">home</a>
+              <a href="#" onClick={() => setIsMobileMenu(!isMobileMenu)}>
+                home
+              </a>
             </li>
             <li>
-              <a href="/">discover us</a>
+              <a href="#about" onClick={() => setIsMobileMenu(!isMobileMenu)}>
+                discover us
+              </a>
             </li>
             <li>
-              <a href="/">why us?</a>
+              <a
+                href="#choose-us"
+                onClick={() => setIsMobileMenu(!isMobileMenu)}
+              >
+                why us?
+              </a>
             </li>
             <li>
-              <a href="/">our services</a>
+              <a
+                href="#services"
+                onClick={() => setIsMobileMenu(!isMobileMenu)}
+              >
+                our services
+              </a>
             </li>
             <li>
-              <a href="/">get in touch</a>
+              <a href="#contact" onClick={() => setIsMobileMenu(!isMobileMenu)}>
+                get in touch
+              </a>
             </li>
           </ul>
         </div>
