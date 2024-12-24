@@ -10,24 +10,25 @@ const Service = () => {
   return (
     <section
       id="services"
-      className="pt-[28rem] pb-[15rem] relative mb:pt-0 mb-l:mt-[75rem]"
+      // className="section-service relative mb:pt-0 mb-l:mt-[75rem]"
+      className="section-service relative"
     >
-      <div className="container">
+      <div className="secondary-container">
         <div>
-          <div className="flex flex-col items-start mb-16">
+          <div className="flex flex-col items-start mb-16 tb-l:gap-3">
             <span className="sub-title">{"// our service"}</span>
             <h2 className="main-heading">
               Your One-Stop Shop for All
-              <br />
+              <br className="tb-l:hidden" />
               Your IT Needs
             </h2>
           </div>
         </div>
-        <div className="grid grid-cols-3 gap-x-16 gap-y-24 sr-card pb-20">
-          <div className="flex items-start gap-8 group">
+        <div className="grid grid-cols-3 gap-x-16 gap-y-24 sr-card pb-20 md-s:grid-cols-2 md-s:gap-y-20 md-s:gap-x-20 sm-s:gap-x-16 sm-s:gap-y-16 tb-l:grid-cols-1">
+          <div className="flex items-start gap-8 group mb:gap-6">
             <div>
               <span>
-                <FaReact className="h-20 w-20 fill-black group-hover:fill-[#9b51e0] transition-all duration-200" />
+                <FaReact className="h-20 w-20 mb:h-16 mb:w-16 fill-black group-hover:fill-[#9b51e0] transition-all duration-200" />
               </span>
             </div>
             <div>
@@ -40,10 +41,10 @@ const Service = () => {
             </div>
           </div>
 
-          <div className="flex items-start gap-8 group">
+          <div className="flex items-start gap-8 group mb:gap-6">
             <div>
               <span>
-                <ImMobile className="h-20 w-20 fill-black group-hover:fill-[#9b51e0] transition-all duration-200" />
+                <ImMobile className="h-20 w-20 mb:h-16 mb:w-16 fill-black group-hover:fill-[#9b51e0] transition-all duration-200" />
               </span>
             </div>
             <div>
@@ -56,10 +57,10 @@ const Service = () => {
             </div>
           </div>
 
-          <div className="flex items-start gap-8 group">
+          <div className="flex items-start gap-8 group mb:gap-6">
             <div>
               <span>
-                <GiComputerFan className="h-20 w-20 fill-black group-hover:fill-[#9b51e0] transition-all duration-200" />
+                <GiComputerFan className="h-20 w-20 mb:h-16 mb:w-16 fill-black group-hover:fill-[#9b51e0] transition-all duration-200" />
               </span>
             </div>
             <div>
@@ -72,10 +73,10 @@ const Service = () => {
             </div>
           </div>
 
-          <div className="flex items-start gap-8 group">
+          <div className="flex items-start gap-8 group mb:gap-6">
             <div>
               <span>
-                <RiFileSettingsLine className="h-20 w-20 fill-black group-hover:fill-[#9b51e0] transition-all duration-200" />
+                <RiFileSettingsLine className="h-20 w-20 mb:h-16 mb:w-16 fill-black group-hover:fill-[#9b51e0] transition-all duration-200" />
               </span>
             </div>
             <div>
@@ -88,10 +89,10 @@ const Service = () => {
             </div>
           </div>
 
-          <div className="flex items-start gap-8 group">
+          <div className="flex items-start gap-8 group mb:gap-6">
             <div>
               <span>
-                <VscGraph className="h-20 w-20 fill-black group-hover:fill-[#9b51e0] transition-all duration-200" />
+                <VscGraph className="h-20 w-20 mb:h-16 mb:w-16 fill-black group-hover:fill-[#9b51e0] transition-all duration-200" />
               </span>
             </div>
             <div>
@@ -104,10 +105,10 @@ const Service = () => {
             </div>
           </div>
 
-          <div className="flex items-start gap-8 group">
+          <div className="flex items-start gap-8 group mb:gap-6">
             <div>
               <span>
-                <TbSteam className="h-20 w-20 fill-black group-hover:fill-[#9b51e0] transition-all duration-200" />
+                <TbSteam className="h-20 w-20 mb:h-16 mb:w-16 fill-black group-hover:stroke-[#9b51e0] transition-all duration-200" />
               </span>
             </div>
             <div>
