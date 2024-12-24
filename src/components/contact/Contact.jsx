@@ -47,8 +47,10 @@ const Contact = () => {
       } else {
         toast.error("Failed to send email.");
       }
-    } catch (error) {
-      toast.error(`An error occurred while sending the email. ${error}`);
+    } catch {
+      toast.error(
+        "An error occurred while sending the email. Please try again later."
+      );
     } finally {
       setLoading(false);
     }
@@ -88,7 +90,7 @@ const Contact = () => {
                   onChange={(e) => setName(e.target.value)}
                 />
                 <input
-                  type="text"
+                  type="email"
                   className="input"
                   placeholder="Your Email *"
                   value={email}
@@ -102,8 +104,18 @@ const Contact = () => {
                   onChange={(e) => setMessage(e.target.value)}
                 ></textarea>
                 <span className="btn-container">
-                  <button type="submit" className="submit-btn">
-                    send message
+                  <button
+                    type="submit"
+                    className="submit-btn flex justify-center items-center gap-4 md-s:gap-3"
+                    disabled={loading}
+                  >
+                    {loading ? (
+                      <span className="inline-block mt-[-5px] mb-[-5px] h-10 w-10 bg-transparent border-[3px] border-white/30 border-t-white border-r-white rounded-full animate-spin mb:h-8  mb:w-8 mb:mt-[-7.5px] mb:mb-[-7.5px]"></span>
+                    ) : (
+                      ""
+                    )}
+
+                    {loading ? "sending..." : "send message"}
                   </button>
                 </span>
               </form>

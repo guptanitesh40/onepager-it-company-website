@@ -474,7 +474,6 @@ h2 {
 .footer-logo {
   max-width: 20rem;
   height: auto;
-  filter: brightness(5) contrast(1.5);
 }
 
 .sitemap {
